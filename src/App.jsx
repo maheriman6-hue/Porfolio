@@ -546,11 +546,6 @@ function About() {
         </Reveal>
       </div>
 
-      <div className="gallery-controls">
-        <span>@iman.dev / selected frames</span>
-        <span>Use the arrows to browse</span>
-      </div>
-
       <HorizontalScroller className="gallery">
         <div className="gallery-card gallery-one">
           <Palette size={24} />
@@ -966,10 +961,7 @@ function Footer() {
           </a>
         </div>
 
-        <span>© 2025 Muhammad Iman</span>
-        <span>
-          Built with curiosity <Sparkles size={14} />
-        </span>
+        <span>© 2026 Muhammad Iman</span>
       </div>
     </footer>
   )

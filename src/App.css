@@ -1325,9 +1325,6 @@ h2 em {
   .about-grid {
     gap: 20px;
   }
-  .gallery-controls {
-    margin-top: 50px;
-  }
   .process-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -1450,7 +1447,7 @@ h2 em {
   gap: 18px;
 }
 .horizontal-scroller.gallery {
-  margin-top: 18px;
+  margin-top: 60px;
   padding: 0;
   overflow: visible;
 }

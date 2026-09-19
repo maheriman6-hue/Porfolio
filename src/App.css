@@ -41,13 +41,18 @@ main,
   line-height: 0.88;
   font-size: 15px;
 }
-.brand > span,
+.brand-mark,
 .footer-person > span {
   display: grid;
   place-items: center;
-  border: 1px solid #555;
   width: 36px;
   height: 36px;
+}
+.brand-mark {
+  object-fit: contain;
+}
+.footer-person > span {
+  border: 1px solid #555;
   border-radius: 50%;
   font-size: 11px;
   letter-spacing: 0.08em;

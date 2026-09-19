@@ -1139,6 +1139,7 @@ h2 em {
   color: #aaa;
 }
 .footer-wordmark {
+  column-gap: 10px;
   font: 600 clamp(100px, 20vw, 260px)/0.7 var(--script);
   text-align: center;
   letter-spacing: -0.06em;

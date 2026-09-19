@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Main Outer Window Body -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="#000000" />
+  
+  <!-- Window Header Separator (White horizontal bar) -->
+  <rect x="16" y="132" width="480" height="40" fill="#ffffff" />
+  
+  <!-- Top Left Window Buttons (Circle Cutouts) -->
+  <circle cx="92" cy="74" r="20" fill="#ffffff" />
+  <circle cx="172" cy="74" r="20" fill="#ffffff" />
+  
+  <!-- Profile Icon Inside Window (Head and Shoulders) -->
+  <circle cx="256" cy="282" r="42" fill="#ffffff" />
+  <path fill="#ffffff" d="M 174 436 C 174 380, 208 360, 256 360 C 304 360, 338 380, 338 436 C 338 450, 326 456, 312 456 L 200 456 C 186 456, 174 450, 174 436 Z" />
+</svg>

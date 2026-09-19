@@ -190,7 +190,7 @@ function Navbar() {
       transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
     >
       <a className="brand" href="#home">
-        <img className="brand-mark" src="/favicon.svg" alt="" />
+        <img className="brand-mark" src="/newFavicon.svg" alt="" />
         <strong>
           Muhammad
           <br />

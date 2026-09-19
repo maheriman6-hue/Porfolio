@@ -1,33 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
+import { AnimatePresence, motion, useInView, useMotionValue, useReducedMotion, useScroll, useSpring, } from 'framer-motion'
 import {
-  AnimatePresence,
-  motion,
-  useInView,
-  useMotionValue,
-  useReducedMotion,
-  useScroll,
-  useSpring,
-} from 'framer-motion'
-import {
-  ArrowDownRight,
-  ArrowLeft,
-  ArrowRight,
-  ArrowUpRight,
-  BriefcaseBusiness,
-  ChevronDown,
-  Code2,
-  GitBranch,
-  Globe2,
-  Layers3,
-  Mail,
-  Menu,
-  Palette,
-  Send,
-  Sparkles,
-  UserRound,
-  X,
-  Zap,
-} from 'lucide-react'
+  ArrowDownRight, ArrowLeft, ArrowRight, ArrowUpRight, BriefcaseBusiness, ChevronDown, Code2, GitBranch, Globe2, Layers3, Mail, Menu, Palette, Send, Sparkles, UserRound, X, Zap, } from 'lucide-react'
 import './App.css'
 
 const sections = [

@@ -38,7 +38,7 @@ main,
   gap: 10px;
   text-decoration: none;
   font-family: var(--heading);
-  line-height: 0.88;
+  line-height: 1;
   font-size: 15px;
 }
 .brand-mark,
@@ -58,9 +58,11 @@ main,
   letter-spacing: 0.08em;
 }
 .brand i {
+  display: inline-block;
   font-family: var(--script);
   font-size: 20px;
   font-weight: 500;
+  margin-top: 6px;
 }
 .availability {
   color: #bdbdbd;

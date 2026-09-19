@@ -944,7 +944,7 @@ function Footer() {
       </div>
 
       <div className="footer-wordmark">
-        Iman<span>.</span>
+        Muhammad Iman<span>.</span>
       </div>
 
       <div className="footer-bottom">

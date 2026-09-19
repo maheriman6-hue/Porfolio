@@ -911,13 +911,6 @@ function Contact() {
           <textarea name="message" placeholder="Tell me a little about the project..." rows="4" required />
         </label>
 
-        <div className="budget-row">
-          <span>Budget range</span>
-          <button type="button">
-            $1k — $5k <ChevronDown size={15} />
-          </button>
-        </div>
-
         <button className="submit-button" type="submit">
           Send Request <Send size={16} />
         </button>
